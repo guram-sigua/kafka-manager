@@ -1,0 +1,8 @@
+dev:
+  build: .
+  ports:
+    - "222:22"
+    - "9001:9001"
+    - "9000:9000"
+  hostname: localhost
+                      
